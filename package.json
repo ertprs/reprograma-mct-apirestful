@@ -1,0 +1,24 @@
+{
+  "name": "reprograma-mct-apirestful",
+  "version": "1.0.0",
+  "description": "API desenvolvida na tecnologia nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaisMaas/reprograma-mct-apirestful.git"
+  },
+  "author": "lais-lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaisMaas/reprograma-mct-apirestful/issues"
+  },
+  "homepage": "https://github.com/LaisMaas/reprograma-mct-apirestful#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
+}
