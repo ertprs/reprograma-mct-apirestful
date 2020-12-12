@@ -3,40 +3,40 @@
 API desenvolvida com a tecnologia NodeJs
 
 
-## Descrição
-Projeto de conclusão do curso [{Reprograma}] turma de Back-end 2020 -Saiba mais em: (https://reprograma.com.br/). 
+## Descriï¿½ï¿½o
+Projeto de conclusï¿½o do curso [{Reprograma}] turma de Back-end 2020 -Saiba mais em: (https://reprograma.com.br/). 
 
 ###Proposta do projeto final 
-Construção de uma API de tema livre, capaz e executar um CRUD, contendo as quatro operações básicas usadas em Banco de Dados NoSQL - Create (Criar), Read (Consultar), Update (Atualizar) e Delete (Excluir), com deploy efetuado na plataforma Heroku. 
+Construï¿½ï¿½o de uma API de tema livre, capaz e executar um CRUD, contendo as quatro operaï¿½ï¿½es bï¿½sicas usadas em Banco de Dados NoSQL - Create (Criar), Read (Consultar), Update (Atualizar) e Delete (Excluir), com deploy efetuado na plataforma Heroku. 
 
 ## Finalidade do projeto MeuClosetTem_API
->Adepta da ações e engajamentos sobre sustentabilidade desde 2014, tive a oportunidade nesta trajetória de conhecer e me engajar ativamente em ações de promoção à moda sustentável no ano de 2018 no território nacional. 
->A indútria da moda está entre as mais poluentes do mundo e eventos como o Rio Ethical Fashion trazem a tona debates e reflexões necessários a todos nós para que possamos nos conscientizar e repensarmos nossa forma de consumo, bem como, dar apoio a ações que atuem nesta mudança de contexto. 
+>Adepta da aï¿½ï¿½es e engajamentos sobre sustentabilidade desde 2014, tive a oportunidade nesta trajetï¿½ria de conhecer e me engajar ativamente em aï¿½ï¿½es de promoï¿½ï¿½o ï¿½ moda sustentï¿½vel no ano de 2018 no territï¿½rio nacional. 
+>A indï¿½tria da moda estï¿½ entre as mais poluentes do mundo e eventos como o Rio Ethical Fashion trazem a tona debates e reflexï¿½es necessï¿½rios a todos nï¿½s para que possamos nos conscientizar e repensarmos nossa forma de consumo, bem como, dar apoio a aï¿½ï¿½es que atuem nesta mudanï¿½a de contexto. 
 >
->Segundo o relatório de inteligência do Serviço de Apoio às Micro e Pequenas Empresas(Sebrae), o número de brechós no Brasil aumentou em 210% somente entre 2010 e 2015, . 
+>Segundo o relatï¿½rio de inteligï¿½ncia do Serviï¿½o de Apoio ï¿½s Micro e Pequenas Empresas(Sebrae), o nï¿½mero de brechï¿½s no Brasil aumentou em 210% somente entre 2010 e 2015, . 
 >
->O intuito da da ferramenta desenvolvida é empoderar microeemprendedoras, bem como, pequenas e médias empresas na promoção de moda sustentável através da internet para o empreendimentos locais, viusando a captação de público alvo e despertando novos consumidores para esta concientização.
+>O intuito da da ferramenta desenvolvida ï¿½ empoderar microeemprendedoras, bem como, pequenas e mï¿½dias empresas na promoï¿½ï¿½o de moda sustentï¿½vel atravï¿½s da internet para o empreendimentos locais, viusando a captaï¿½ï¿½o de pï¿½blico alvo e despertando novos consumidores para esta concientizaï¿½ï¿½o.
 
-## Solução da Hub Fight's
+## Soluï¿½ï¿½o da Hub Fight's
 Objetivos: 
-- Cadastro de estabelecimentos de atuação em moda sustentável.
+- Cadastro de estabelecimentos de atuaï¿½ï¿½o em moda sustentï¿½vel.
 - Fortalecimento de pequenos empreendedores no setor comercial. 
-- Promoção de uma consciência sustentável
--Captação de público alvo para o comércio de moda sustentável. 
-- Captação de apoiadores.
+- Promoï¿½ï¿½o de uma consciï¿½ncia sustentï¿½vel
+-Captaï¿½ï¿½o de pï¿½blico alvo para o comï¿½rcio de moda sustentï¿½vel. 
+- Captaï¿½ï¿½o de apoiadores.
 
 
 ## Tecnologias utilizadas
 
-Para a consturição do projeto, as seguintes tecnologiasforam utilizadas:
+Para a consturiÃ§Ã£o do projeto, as seguintes tecnologiasforam utilizadas:
 
-- [JavaScript](https://www.javascript.com/) - Linguagem de programação
-- [Node.js](https://nodejs.org/en/) - Ambiente de execução
-- [Git/Github](https://github.com/) - Plataforma de hospedagem do código fonte
+- [JavaScript](https://www.javascript.com/) - Linguagem de programaÃ§Ã£o
+- [Node.js](https://nodejs.org/en/) - Ambiente de execuÃ§Ã£o
+- [Git/Github](https://github.com/) - Plataforma de hospedagem do cÃ³digo fonte
 - [heroku](https://dashboard.heroku.com/apps) - Plataforma Cloud para deploy
 - [MongoDB](https://www.mongodb.com/) - Banco de Dados NoSQL 
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/) - Banco de Dados em nuvem
-- [Express](https://expressjs.com/pt-br/) - Framework, gerenciador de requisções
+- [Express](https://expressjs.com/pt-br/) - Framework, gerenciador de requisÃ§Ãµes
 Outras Ferramentas
 - [Nodemon](https://nodemon.io/)
 - [Mongoose](https://mongoosejs.com/)
@@ -47,35 +47,35 @@ Outras Ferramentas
 
         Arquitetura MVC
         |
-        \--?? **HUB-FIGHTS**
-            | ?? README.md
-            | ?? .env
-            | ?? .gitignore
-            | ?? package-lock.json
-            | ?? package.json
-            | ?? **server.js**  
-            \--?? node_modules
-            \--?? assets
-            \--??src
-                | ??**app.js**
-                ??---data
-                |   ?? **database.js
-                ??---controllers
-                |   ?? **crowdfundingController.js
-                |   ??  eventController.js
-                |   ??  fighterController.js
-                |   ??  promoterController.js**
-                ??---models
-                |   ??  **crowdfundingSchema.js
-                |   ??  eventoSchema.js
-                |   ??  fighterSchema.js
-                |   ??  promoterSchema.js**
-                ??---routes
-                |   ??  **crowdfundingoutes.js
-                |   ??  eventRoutes.js
-                |   ??  fighterRoutes.js
-                |   ??  promoterRoutes.js**
-                |__ ??  index.js**
+        \--ðŸ“‚ **HUB-FIGHTS**
+            | ðŸ“„ README.md
+            | ðŸ“„ .env
+            | ðŸ“„ .gitignore
+            | ðŸ“„ package-lock.json
+            | ðŸ“„ package.json
+            | ðŸ“„ **server.js**  
+            \--ðŸ“‚ node_modules
+            \--ðŸ“‚ assets
+            \--ðŸ“‚src
+                | ðŸ“„**app.js**
+                ðŸ“‚---data
+                |   ðŸ“„ **database.js
+                ðŸ“‚---controllers
+                |   ðŸ“„ **crowdfundingController.js
+                |   ðŸ“„  eventController.js
+                |   ðŸ“„  fighterController.js
+                |   ðŸ“„  promoterController.js**
+                ðŸ“‚---models
+                |   ðŸ“„  **crowdfundingSchema.js
+                |   ðŸ“„  eventoSchema.js
+                |   ðŸ“„  fighterSchema.js
+                |   ðŸ“„  promoterSchema.js**
+                ðŸ“‚---routes
+                |   ðŸ“„  **crowdfundingoutes.js
+                |   ðŸ“„  eventRoutes.js
+                |   ðŸ“„  fighterRoutes.js
+                |   ðŸ“„  promoterRoutes.js**
+                |__ ðŸ“„  index.js**
 
 ## Fluxo do consumo da API
 
@@ -88,6 +88,12 @@ Essa API deve ter as seguintes rotas:
 
 #### Links
 
-* local: http://localhost:555
-* Heroku: https://hub-fights.herokuapp.com/
+* local: http://localhost:3000
+* Heroku: https://api-mct.herokuapp.com/
+## Nota importante
+Escreve algo sobre o seu desenvolvimento no curso
+
+
+### Tassila Bomfim
+[Linkedin]https://www.linkedin.com/in/laismaas//)
 
